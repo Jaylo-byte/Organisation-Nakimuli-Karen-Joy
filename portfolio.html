@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headsets & Ear Pods | Tech Sound</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      
+        header {
+            background: #333;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 20px;
+            color: #bbb;
+        }
+
+        /* Product Section */
+        .product-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .product-item {
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+
+        .product-item h5 {
+            padding: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007bff;
+            margin: 0;
+        }
+
+        .product-item p {
+            padding: 15px;
+            color: #bbb;
+        }
+
+        /* Testimonials Section */
+        .testimonial-item {
+            background-color: #222;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .testimonial-item h5 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .testimonial-item p {
+            font-size: 18px;
+            color: #bbb;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Headphones Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Headphones Hub</h1>
+        <p>Your one-stop shop for the best headsets and ear pods</p>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="container py-5">
+        <h2 class="product-title">Our Products</h2>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="product-item">
+                    <img src="images/headset4.webp" alt="Headset 1">
+                    <h5>Wireless Headset 3000</h5>
+                    <p>High-quality wireless sound with a sleek design. Perfect for gaming and media consumption.</p>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="product-item">
+                    <img src="images/earpods4.webp" alt="Ear Pods 1">
+                    <h5>Noise Cancelling Ear Pods</h5>
+                    <p>Enjoy crisp and clear sound with active noise-cancellation for a peaceful listening experience.</p>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="product-item">
+                    <img src="images/headset3.webp" alt="Headset 2">
+                    <h5>Gaming Headset X-Pro</h5>
+                    <p>Immersive sound experience with surround sound and a built-in microphone for ultimate gaming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container py-5">
+        <h2 class="product-title text-center">What Our Customers Say</h2>
+        <div class="row">
+            <!-- Testimonial 1 -->
+            <div class="col-md-4">
+                <img src="images/john.png" class="card-img-top" alt="Hamidu" height="450px">
+                <div class="testimonial-item">
+                    <h5>John Hamidu</h5>
+                    <p>"The wireless headset 3000 has completely changed my gaming experience. Comfortable and amazing sound!"</p>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="col-md-4">
+                <img src="images/nandutu.png" class="card-img-top" alt="Nandutu" height="450px">
+                <div class="testimonial-item">
+                    <h5>Sarah Nandutu</h5>
+                    <p>"I love my noise-cancelling ear pods. They work perfectly for my daily commute and gym sessions."</p>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="col-md-4">
+                <img src="images/Nsereko.jpg" class="card-img-top" alt="Nsereko" height="450px">
+                <div class="testimonial-item">
+                    <h5>Mark Nsereko</h5>
+                    <p>"The sound quality on the Gaming Headset X-Pro is exceptional, and it's super comfortable for long hours."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="container py-5">
+        <h1 class="section-title">Contact Us</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <!-- Footer Section -->
+     <footer class="text-center text-light py-4">
+        <p>&copy; 2024 Headphones Hub | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+           
+              

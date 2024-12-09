@@ -1,0 +1,228 @@
+/* General Body and Layout Styles */
+body {
+    background-color: #000;
+    color: rgba(235, 225, 225, 0.795);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+}
+.logo{
+    color: #ccf536;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.nav-item{
+    position: relative;
+    margin: 0px 15px;
+
+}
+.nav-item .nav-link{
+    color: rgb(234, 243, 108);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link:hover {
+    color: rgb(243, 162, 34);
+    text-decoration: none;
+}
+.nav-link::after{
+    color: rgb(243, 162, 34);
+    text-decoration: none;
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    background-color: rgb(255, 129, 57);
+    height:3px;
+    transition:0.4s ease-in-out;
+    width: 0%;
+}
+.nav-item:hover .nav-link::after{
+    width: 100%;
+}
+.navbar-toggler-icon {
+    background-color: rgb(234, 143, 143);
+}
+
+/* Banner Styles */
+.banner {
+
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+.banner .btn-yellow {
+    background-color: rgb(236, 112, 22);
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.banner .btn-yellow:hover {
+    background-color: rgb(165, 122, 235);
+    color: rgb(15, 232, 124);
+}
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #2d2929;
+}
+
+.card-body .btn {
+    background-color: rgb(236, 112, 22);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.card-body .btn:hover {
+    background-color: rgb(165, 122, 235);
+    color: rgb(15, 232, 124);
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.contact-form input, .contact-form textarea {
+    background-color:#444;
+    border: 1px solid #f99d23;
+    color: rgb(235, 132, 36);
+}
+.contact-form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.about-text {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.about-text p {
+    margin-bottom: 1.5rem;
+}
+.blog-header {
+    background-color: #343a40;
+    color: rgb(248, 203, 203);
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post h2 {
+    font-size: 28px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    color: #a19f9f;
+}
+
+.sidebar {
+    background-color: #8aafd736;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #e8422f;
+    font-weight: bold;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+strong{
+    color: #007bff;
+}
+.form-group{
+    background-color:transparent;
+    color: rgb(235, 132, 36);  
+}
+.form-control{
+background-color: #343a40;
+}
+
+.form-group .form-control::after{
+    background-color: #343a40;
+    color: #f99d23;
+    }
+.carousel-item active{
+    display: flex;
+}
